@@ -12,6 +12,8 @@ import {
 import Header from './Components/Header/Header';
 import AboutMe from './Components/AboutMe/AboutMe';
 import { AnimatePresence } from 'framer-motion';
+import Resume from './Components/Resume/Resume';
+import Contact from './Components/Contact/Contact';
 
 function App() {
   let location = useLocation();
@@ -24,6 +26,12 @@ function App() {
           </Route>
           <Route path='/about'>
             <AboutMe></AboutMe>
+          </Route>
+          <Route path='/resume'>
+            <Resume></Resume>
+          </Route>
+          <Route path='/contact'>
+            <Contact></Contact>
           </Route>
         </Switch>
       </AnimatePresence>
