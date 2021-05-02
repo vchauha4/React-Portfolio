@@ -16,8 +16,13 @@ const AboutMe = () => {
       <div className="row">
         <h1 className="brand-text mb-5">About Me</h1>
         <div className="col-md-8">
-          <h2 className="text-white mb-3">UI/UX Designer and Developer</h2>
-          <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus repellendus illum laborum atque a officiis, aliquam consectetur, magni totam quaerat doloribus enim dignissimos earum reprehenderit ut qui perferendis. Animi nulla exercitationem maxime dolor dignissimos. Nisi incidunt vitae ipsa corporis consequuntur non, sit harum atque porro fuga obcaecati nam aperiam esse.</p>
+          <h2 className="text-white mb-3">Frontend Web Developer</h2>
+          <p className="text-white">
+            Hard working professional with proven critical thinking, good communication and
+            multitasking skills. Aiming to leverage my abilities to successfully deliver your desired product. Developer with knowledge about backend technology that allows me to create dynamic and a fully functional website. <br/><br/>
+            I am able to do front end work such as PSD to HTML, Sketch to html with proper responsiveness. <br/><br/>
+            Focused on responsive design to improve user experience. Able to pick up new related technology and use them for my work. 
+          </p>
         </div>
         <div className="col-md-4">
           <h4 className="mb-4">Personal Information</h4>
@@ -36,21 +41,27 @@ const AboutMe = () => {
           <div className="service-box">
             <FontAwesomeIcon className="myicon" icon={faDesktop}></FontAwesomeIcon>
             <h4>Web Development</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti exercitationem impedit laborum eligendi doloremque quis in modi accusantium similique ipsam, sunt voluptate nihil aspernatur molestiae.</p>
+            <p>
+              I can build fully functional dynamic and single page application with google authentication and database operations
+            </p>
           </div>
         </div>
         <div className="col-md-4">
           <div className="service-box">
             <FontAwesomeIcon className="myicon" icon={faMobile}></FontAwesomeIcon>
             <h4>Web Design</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti exercitationem impedit laborum eligendi doloremque quis in modi accusantium similique ipsam, sunt voluptate nihil aspernatur molestiae.</p>
+            <p>
+              I can design any website, such as Portfolio website, Ecommerce, Blogs, Landing pages etc 
+            </p>
           </div>
         </div>
         <div className="col-md-4">
           <div className="service-box">
             <FontAwesomeIcon className="myicon" icon={faEye}></FontAwesomeIcon>
             <h4>Responsive Design</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti exercitationem impedit laborum eligendi doloremque quis in modi accusantium similique ipsam, sunt voluptate nihil aspernatur molestiae.</p>
+            <p>
+              I can develop fully responsive websites that meets the satisfaction of users with various devices
+            </p>
           </div>
         </div>
       </div>

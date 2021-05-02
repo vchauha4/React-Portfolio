@@ -32,10 +32,10 @@ const Home = () => {
             </span>
           </h1>
           <div className="social-links mt-">
-            <button className="btn btn-dark m-3"><a href="github.com">Github <span><FontAwesomeIcon className="homeicon" icon={faGithub}></FontAwesomeIcon></span></a></button>
-            <button className="btn btn-primary m-3"><a href="linkedin.com">Linkedin <span><FontAwesomeIcon className="homeicon" icon={faLinkedin}></FontAwesomeIcon></span></a></button>
+            <button className="btn btn-dark m-3"><a target="_blank" href="https://github.com/masummim50">Github <span><FontAwesomeIcon className="homeicon" icon={faGithub}></FontAwesomeIcon></span></a></button>
+            <button className="btn btn-primary m-3"><a target="_blank" href="https://www.linkedin.com/in/masum-billah-65709a146/">Linkedin <span><FontAwesomeIcon className="homeicon" icon={faLinkedin}></FontAwesomeIcon></span></a></button>
           </div>
-          <button className="btn brand-btn">Download Resume <span><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon></span></button>
+          <a target="_blank" href="https://drive.google.com/u/0/uc?id=1Iog7pdvkCA3HFp0iDyczZ5wP5zd2G-3q&export=download"><button className="btn brand-btn">Download Resume <span><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon></span></button></a>
         </div>
       </div>
     </motion.div>

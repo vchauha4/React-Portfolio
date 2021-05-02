@@ -1,3 +1,5 @@
+import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { motion } from 'framer-motion';
 import React from 'react';
 
@@ -16,7 +18,15 @@ const Resume = () => {
         <div className="row">
           <h1 className="brand-text mb-5">My Resume</h1>
           <div className="col-md-7">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut asperiores cum laborum ipsa distinctio commodi ad ipsum facilis facere reiciendis tenetur voluptatum beatae quasi quisquam provident fugit accusamus, inventore officiis architecto est alias a? Eum.</p>
+            <p>
+              My expertise are in frontend technologies such as HTML5, CSS, BOOTSTRAP,
+              JAVASCRIPT, REACT. I am comfortable with backend technologies such as NODE,
+              EXPRESS, MONGODB, FIREBASE that allows me to work with a backend team
+              efficiently.<br/><br/>
+              I am a solution-focused
+              developer with the ability to develop interactive and responsive websites that
+              satisfies a user’s experience.
+            </p>
           </div>
           <div className="col-md-5">
             <h3 className="skills">My Skillset:</h3>
@@ -32,6 +42,9 @@ const Resume = () => {
             {
               familiar.map(skill => <span className="lowskill">{skill}</span> )
             }
+            <a target="_blank" href="https://drive.google.com/u/0/uc?id=1Iog7pdvkCA3HFp0iDyczZ5wP5zd2G-3q&export=download">
+          <button className="btn brand-btn mt-5">Download Resume <span><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon></span></button>
+          </a>
           </div>
         </div>
       </div>

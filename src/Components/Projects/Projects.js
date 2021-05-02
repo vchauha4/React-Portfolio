@@ -11,11 +11,11 @@ import SingleProject from './SingleProject';
 
 const Projects = () => {
   const projects = [
-    {img: artmaker, title: 'Full stack website', description:'Full stack website with user and admin separate functionality', technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'NODE', 'EXPRESS', 'FIREBASE'], livesite: 'link', github: 'link'},
-    {img: food, title: 'React Router based Web', description:'Collects data from a public api with search functionality and details of each object', technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'REACT', 'REACT ROUTER'], livesite: 'link', github: 'link'},
-    {img: library, title: 'Full stack website', description:'Full stack website with all user considered admin to be able to test the NODE CRUD operations', technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'NODE', 'EXPRESS', 'FIREBASE'], livesite: 'link', github: 'link'},
-    {img: transport, title: 'Full stack website', description:'slf sldkfjsl slkdfjslkdj',technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'NODE', 'EXPRESS', 'FIREBASE'], livesite: 'link', github: 'link'},
-    {img: slider, title: 'Full stack website', description:'slf sldkfjsl slkdfjslkdj',technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'NODE', 'EXPRESS', 'FIREBASE'], livesite: 'link', github: 'link'}
+    {img: artmaker, title: 'Full stack website', description:'Full stack website with user and admin separate functionality', technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'NODE', 'EXPRESS', 'FIREBASE'], livesite: 'https://artmakers-5cab4.web.app/', github: 'https://github.com/masummim50/ArtMakers'},
+    {img: food, title: 'React Router based Web', description:'Collects data from a public api with search functionality and details of each object', technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'REACT', 'REACT ROUTER'], livesite: 'https://masummim50.github.io/Find-A-Meal/', github: 'https://github.com/masummim50/Find-A-Meal'},
+    {img: library, title: 'Full stack website', description:'Full stack website with all user considered admin to be able to test the NODE CRUD operations', technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'NODE', 'EXPRESS', 'FIREBASE'], livesite: 'https://e-library-fe886.web.app/', github: 'https://github.com/masummim50/E-Library'},
+    {img: transport, title: 'Transport service website', description:'A website build with react. User gets to choose vehicle type and destination to book travel plan',technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'FIREBASE'], livesite: 'https://transporter-7792b.web.app/', github: 'https://github.com/masummim50/Transport-Service'},
+    {img: slider, title: 'A slider making website', description:'User can search image with keywords and then select multiple images to create a image carousel',technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT'], livesite: 'https://masummim50.github.io/fancy-slider-assignment/index', github: 'https://github.com/masummim50/fancy-slider-assignment'}
   ]
   const breakpointColumnsObj = {
     default: 3,
