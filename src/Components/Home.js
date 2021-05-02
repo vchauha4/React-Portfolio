@@ -22,7 +22,7 @@ const Home = () => {
             <span className="brand-text">
             <Typewriter
               options={{
-              strings: ['web developer', 'web designer', 'react developer'],
+              strings: ['Web Developer', 'Web Designer', 'React Developer'],
               autoStart: true,
               loop: true,
               deleteSpeed:25,
@@ -31,9 +31,9 @@ const Home = () => {
             />
             </span>
           </h1>
-          <div className="social-links">
-            <button className="btn btn-success"><a href="github.com">Github <span><FontAwesomeIcon className="homeicon" icon={faGithub}></FontAwesomeIcon></span></a></button>
-            <button className="btn btn-danger"><a href="linkedin.com">Linkedin <span><FontAwesomeIcon className="homeicon" icon={faLinkedin}></FontAwesomeIcon></span></a></button>
+          <div className="social-links mt-">
+            <button className="btn btn-dark m-3"><a href="github.com">Github <span><FontAwesomeIcon className="homeicon" icon={faGithub}></FontAwesomeIcon></span></a></button>
+            <button className="btn btn-primary m-3"><a href="linkedin.com">Linkedin <span><FontAwesomeIcon className="homeicon" icon={faLinkedin}></FontAwesomeIcon></span></a></button>
           </div>
           <button className="btn brand-btn">Download Resume <span><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon></span></button>
         </div>

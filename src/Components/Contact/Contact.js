@@ -37,7 +37,7 @@ const Contact = () => {
                 <input className="form-control" placeholder="Your Email Address" type="email" name="user_email" />
                 <label>Message</label>
                 <textarea className="form-control" placeholder="How can i help you?" name="message" />
-                <input className="btn btn-success px-5 mt-3" type="submit" value="Send Message" />
+                <input className="btn brand-btn px-5 mt-3" type="submit" value="Send Message" />
                 {
                   success ? <p className="text-success">Email sent successfully</p> : ''
                 }

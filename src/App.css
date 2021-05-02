@@ -33,21 +33,21 @@ p, h1{
   transition: all ease 0.5s;
 }
 .brand-text{
-  color:rgb(19, 235, 142);
+  color:rgb(255, 0, 81);
 }
 .my-nav-style li a{
   border-radius: 15px;
   border:1px solid transparent;
 }
 .my-nav-style li a:hover{
-  border:1px solid rgb(19, 235, 142);
+  border:1px solid rgb(255, 0, 81);
 }
 .active{
-  background-color: rgb(19, 235, 142);
+  background-color: rgb(255, 0, 81);
   border-radius: 15px;
   color:black;
   transition: all ease 0.9s;
-  border:1px solid rgb(19, 235, 142);
+  border:1px solid rgb(255, 0, 81);
 }
 .myicon{
   font-size: 50px;
@@ -66,6 +66,7 @@ p, h1{
   padding:25px;
   margin-top:20px;
   position: relative;
+  cursor: pointer;
 }
 .service-box::before{
   content: '';
@@ -105,4 +106,17 @@ p, h1{
   padding:5px;
   display: inline-block;
   margin-top: 5px;
+}
+.project-container{
+  transition: all ease 0.5s;
+}
+.project-links{
+  display: none;
+  background-color: rgba(35, 22, 31, 0.6);
+  transition: all ease 0.5s;
+}
+.project-container:hover .project-links{
+  display: block;
+  background-color: rgba(35, 22, 31, 0.6);
+  transition: all ease 0.5s;
 }
