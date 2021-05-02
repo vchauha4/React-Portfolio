@@ -17,7 +17,8 @@ const Blog = () => {
               options={{
               strings: ['Coming Soon...'],
               autoStart: true,
-              pauseFor:500000
+              pauseFor:500000,
+              loop:true
               }}
             />
         </h2>
