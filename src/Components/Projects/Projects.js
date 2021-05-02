@@ -11,11 +11,11 @@ import SingleProject from './SingleProject';
 
 const Projects = () => {
   const projects = [
-    {img: artmaker, title: 'Full stack website', description:'slf sldkfjsl slkdfjslkdj', livesite: 'link', github: 'link'},
-    {img: food, title: 'Full stack website', description:'slf sldkfjsl slkdfjslkdj', livesite: 'link', github: 'link'},
-    {img: library, title: 'Full stack website', description:'slf sldkfjsl slkdfjslkdj', livesite: 'link', github: 'link'},
-    {img: transport, title: 'Full stack website', description:'slf sldkfjsl slkdfjslkdj', livesite: 'link', github: 'link'},
-    {img: slider, title: 'Full stack website', description:'slf sldkfjsl slkdfjslkdj', livesite: 'link', github: 'link'}
+    {img: artmaker, title: 'Full stack website', description:'Full stack website with user and admin separate functionality', technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'NODE', 'EXPRESS', 'FIREBASE'], livesite: 'link', github: 'link'},
+    {img: food, title: 'React Router based Web', description:'Collects data from a public api with search functionality and details of each object', technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'REACT', 'REACT ROUTER'], livesite: 'link', github: 'link'},
+    {img: library, title: 'Full stack website', description:'Full stack website with all user considered admin to be able to test the NODE CRUD operations', technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'NODE', 'EXPRESS', 'FIREBASE'], livesite: 'link', github: 'link'},
+    {img: transport, title: 'Full stack website', description:'slf sldkfjsl slkdfjslkdj',technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'NODE', 'EXPRESS', 'FIREBASE'], livesite: 'link', github: 'link'},
+    {img: slider, title: 'Full stack website', description:'slf sldkfjsl slkdfjslkdj',technology:['HTML', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'NODE', 'EXPRESS', 'FIREBASE'], livesite: 'link', github: 'link'}
   ]
   const breakpointColumnsObj = {
     default: 3,
@@ -31,7 +31,7 @@ const Projects = () => {
       transition={{duration: 0.5}}
     >
       <div className="container">
-          
+          <h2 className="brand-text mb-5">My Projects:</h2>
         <Masonry
             breakpointCols={breakpointColumnsObj}
             className="my-masonry-grid"

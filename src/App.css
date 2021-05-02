@@ -117,6 +117,6 @@ p, h1{
 }
 .project-container:hover .project-links{
   display: block;
-  background-color: rgba(35, 22, 31, 0.6);
+  background-color: rgba(35, 22, 31, 0.8);
   transition: all ease 0.5s;
 }
