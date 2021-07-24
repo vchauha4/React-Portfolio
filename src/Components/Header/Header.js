@@ -6,7 +6,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => {
   const toggleShow = ()=> {
   document.getElementById('expand').setAttribute('aria-expanded', false);
-  document.getElementById('showclass').classList.toggle('show')
+  document.getElementById('navbarNav').classList.toggle('show')
   }
   return (
     <div>
@@ -21,9 +21,9 @@ const Header = () => {
                 <span class="navbar-toggler-icon bg-white"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav my-nav-style">
+                <ul onClick={toggleShow} class="navbar-nav my-nav-style">
                   <li class="nav-item ms-1">
-                    <NavLink to='/' onClick={toggleShow} exact={true} className="nav-link text-white" activeClassName="active"><span><FontAwesomeIcon icon={faHome}></FontAwesomeIcon></span> Home</NavLink>
+                    <NavLink to='/' exact={true} className="nav-link text-white" activeClassName="active"><span><FontAwesomeIcon icon={faHome}></FontAwesomeIcon></span> Home</NavLink>
                   </li>
                   <li class="nav-item ms-1">
                   <NavLink to='/about' className="nav-link text-white" activeClassName="active"><span><FontAwesomeIcon icon={faUser}></FontAwesomeIcon></span> About Me</NavLink>
