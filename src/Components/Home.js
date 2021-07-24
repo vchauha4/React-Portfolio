@@ -37,6 +37,7 @@ const Home = () => {
           </div>
           <a target="_blank" href="https://drive.google.com/u/0/uc?id=1Iog7pdvkCA3HFp0iDyczZ5wP5zd2G-3q&export=download"><button className="btn brand-btn">Download Resume <span><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon></span></button></a>
         </div>
+        
       </div>
     </motion.div>
   );

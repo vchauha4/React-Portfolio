@@ -4,6 +4,10 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => {
+  const toggleShow = ()=> {
+  document.getElementById('expand').setAttribute('aria-expanded', false);
+  document.getElementById('navbarNav').classList.toggle('show')
+  }
   return (
     <div>
       <header class="sticky-top">
@@ -13,11 +17,11 @@ const Header = () => {
               <a class="navbar-brand w-25" href="#">
                 <img class="w-75" src="icons/logo.png" alt=""/>
               </a>
-              <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button id='expand' class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon bg-white"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav my-nav-style">
+                <ul onClick={toggleShow} class="navbar-nav my-nav-style">
                   <li class="nav-item ms-1">
                     <NavLink to='/' exact={true} className="nav-link text-white" activeClassName="active"><span><FontAwesomeIcon icon={faHome}></FontAwesomeIcon></span> Home</NavLink>
                   </li>
