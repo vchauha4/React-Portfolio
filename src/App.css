@@ -24,30 +24,30 @@ p, h1{
 }
 
 .brand-btn{
-  border:1px solid rgb(255, 0, 81);
+  border:1px solid rgb(165, 110, 127);
   color:white;
 }
 .brand-btn:hover{
-  background-color: rgb(255, 0, 81);
+  background-color: rgb(165, 110, 127);
   color:white;
   transition: all ease 0.5s;
 }
 .brand-text{
-  color:rgb(255, 0, 81);
+  color:rgb(165, 110, 127);
 }
 .my-nav-style li a{
   border-radius: 15px;
   border:1px solid transparent;
 }
 .my-nav-style li a:hover{
-  border:1px solid rgb(255, 0, 81);
+  border:1px solid rgb(165, 110, 127);
 }
 .active{
-  background-color: rgb(255, 0, 81);
+  background-color: rgb(165, 110, 127);
   border-radius: 15px;
   color:black;
   transition: all ease 0.9s;
-  border:1px solid rgb(255, 0, 81);
+  border:1px solid rgb(165, 110, 127);
 }
 .myicon{
   font-size: 50px;
@@ -62,7 +62,7 @@ p, h1{
 }
 
 .service-box{
-  /* border:1px solid rgb(255, 0, 81); */
+  /* border:1px solid rgb(165, 110, 127); */
   padding:25px;
   margin-top:20px;
   position: relative;
@@ -79,8 +79,8 @@ p, h1{
   background-image: url('./Components/images/bg.jpg');
 }
 .service-box:hover{
-  background-color: rgb(255, 0, 81);
-  /* border:1px solid rgb(255, 0, 81); */
+  background-color: rgb(165, 110, 127);
+  /* border:1px solid rgb(165, 110, 127); */
   transition: all ease 0.6s;
 }
 .service-box:hover .myicon{
@@ -89,11 +89,11 @@ p, h1{
 
 .skills{
   text-decoration: underline;
-  text-decoration-color: rgb(255, 0, 81);
+  text-decoration-color: rgb(165, 110, 127);
 }
 .singleSkill{
   margin-right: 5px;
-  background-color: rgb(255, 0, 81);
+  background-color: rgb(165, 110, 127);
   border-radius: 10px;
   padding:5px;
   display: inline-block;

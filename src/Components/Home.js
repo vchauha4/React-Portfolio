@@ -22,7 +22,7 @@ const Home = () => {
             <span className="brand-text">
             <Typewriter
               options={{
-              strings: ['Data Engineer', 'ML Reasearcher', 'Software Engineer'],
+              strings: ['Data Engineer', 'ML Reasearcher', 'Avid Crocheter'],
               autoStart: true,
               loop: true,
               deleteSpeed:25,

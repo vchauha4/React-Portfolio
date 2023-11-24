@@ -4,9 +4,9 @@ import { motion } from 'framer-motion';
 import React from 'react';
 
 const Resume = () => {
-  const frontendskills = ['HTML5', 'CSS', 'BOOTSTRAP', 'JAVASCRIPT', 'REACT.JS', 'REACT ROUTER']
-  const backendskills = ['NODE.JS', 'EXPRESS', 'MONGODB', 'FIREBASE', 'HEROKU'];
-  const familiar = ['REACT NATIVE', 'PHP', 'WORDPRESS', 'NEXT.JS', 'REDUX']
+  const frontendskills = ["Scala", "Java", "Python", "MATLAB", "HTML/CSS", "JavaScript"]
+  const backendskills = ["Apache Spark", "Hadoop", "PySpark", "Airflow", "ReactJS", "Git", "Google Cloud", "Jupyter Notebook"];
+  const familiar = ["Scala: Rock the JVM", "Apache Spark 3: Spark programming in Python for Beginners", "Quantexa Certified Data Engineer", "Quantexa Certified Scoring Engineer"]
   return (
     <motion.div 
       initial={{opacity:0, scale:0.5}}
@@ -18,27 +18,30 @@ const Resume = () => {
         <div className="row">
           <h1 className="brand-text mb-5">My Resume</h1>
           <div className="col-md-7">
-            <p>
-              My expertise are in frontend technologies such as HTML5, CSS, BOOTSTRAP,
-              JAVASCRIPT, REACT. I am comfortable with backend technologies such as NODE,
-              EXPRESS, MONGODB, FIREBASE that allows me to work with a backend team
-              efficiently.<br/><br/>
-              I am a solution-focused
-              developer with the ability to develop interactive and responsive websites that
-              satisfies a user’s experience.
-            </p>
+            <h3 className="Experience">Experience:</h3>
+            <br></br>
+            <h5>Data Engineer - Quantexa</h5>
+            <h5>Data Science Associate - York University</h5>
+            <h5>Software Developer Intern - CodeDay Labs</h5>
+            <h5>Senior Assistant - Allan I Carswell Observatory</h5>
+            <br></br>
+            <h3 className="Projects">Projects:</h3>
+            <br></br>
+            <h5>ML Researcher - CIBC</h5>
+            <h5>Very-Unique-Pet - 3rd place overall Hacklarious</h5>
+            <h5>Ideation Challenge - KPMG</h5>
           </div>
           <div className="col-md-5">
-            <h3 className="skills">My Skillset:</h3>
-            <h4 className="brand-text">Frontend skills: </h4> 
+            <h3 className="skills">Technical Skills:</h3>
+            <h4 className="brand-text">Programming Languages: </h4> 
             {
               frontendskills.map(skill=> <span className="singleSkill">{skill}</span>)
             }
-            <h4 className="brand-text">Backend skills: </h4>
+            <h4 className="brand-text">Tools/Frameworks: </h4>
             {
               backendskills.map(skill => <span className="singleSkill">{skill}</span> )
             }
-            <h4 className="brand-text">Familiar with: </h4>
+            <h4 className="brand-text">Certifications: </h4>
             {
               familiar.map(skill => <span className="lowskill">{skill}</span> )
             }
