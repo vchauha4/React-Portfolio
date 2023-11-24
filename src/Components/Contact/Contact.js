@@ -10,7 +10,7 @@ const Contact = () => {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('service_8b7qzgf', 'template_pb5f30p', e.target, 'user_0yHdbkVP8iDBfUGfRa7vu')
+    emailjs.sendForm('service_ysae4em', 'template_7xjkpzc', e.target, 'pH5fxGj6Z90uTujhM')
       .then((result) => {
           setSuccess(!success)
       }, (error) => {
@@ -47,13 +47,13 @@ const Contact = () => {
             <h4 className="brand-text">Other ways to get in touch</h4>
           <div className="row text-center mt-5 m-5">
             <div className="col-md-4">
-              <a href="sdfsdf"><FontAwesomeIcon className="myicon" icon={faFacebook}></FontAwesomeIcon></a>
+              <a ><FontAwesomeIcon className="myicon" icon={faFacebook}></FontAwesomeIcon></a>
             </div>
             <div className="col-md-4">
-            <a href="sdfsdf"><FontAwesomeIcon className="myicon" icon={faLinkedin}></FontAwesomeIcon></a>
+            <a ><FontAwesomeIcon className="myicon" icon={faLinkedin}></FontAwesomeIcon></a>
             </div>
             <div className="col-md-4">
-            <a href="sdfsdf"><FontAwesomeIcon className="myicon" icon={faTwitter}></FontAwesomeIcon></a>
+            <a ><FontAwesomeIcon className="myicon" icon={faTwitter}></FontAwesomeIcon></a>
             </div>
           </div>
         </div>

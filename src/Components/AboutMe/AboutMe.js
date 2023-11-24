@@ -16,7 +16,7 @@ const AboutMe = () => {
       <div className="row">
         <h1 className="brand-text mb-5">About Me</h1>
         <div className="col-md-8">
-          <h2 className="text-white mb-3">Frontend Web Developer</h2>
+          <h2 className="text-white mb-3">Data Engineer</h2>
           <p className="text-white">
           Hi everyone! Welcome to my portfolio! My name is Palvisha, and I graduated
           with a degree in Physics in 2022. Since then (~1.5 years), I have been working 

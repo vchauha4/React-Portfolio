@@ -31,9 +31,7 @@ const Header = () => {
                   <li class="nav-item ms-1">
                   <NavLink to='/resume' className="nav-link text-white" activeClassName="active"><span><FontAwesomeIcon icon={faFileAlt}></FontAwesomeIcon></span> Resume</NavLink>
                   </li>
-                  <li class="nav-item ms-1">
-                  <NavLink to='/projects' className="nav-link text-white" activeClassName="active"><span><FontAwesomeIcon icon={faProjectDiagram}></FontAwesomeIcon></span> Projects</NavLink>
-                  </li>
+
                   <li class="nav-item ms-1">
                   <NavLink to='/blog' className="nav-link text-white" activeClassName="active"><span><FontAwesomeIcon icon={faBookOpen}></FontAwesomeIcon></span> Blog</NavLink>
                   </li>
