@@ -1,4 +1,4 @@
-import { faDesktop, faDownload, faEye, faMobile } from '@fortawesome/free-solid-svg-icons';
+import { faDatabase, faBrain, faDesktop, faDownload} from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { motion } from 'framer-motion';
 import React from 'react';
@@ -28,9 +28,8 @@ const AboutMe = () => {
         <div className="col-md-4">
           <h4 className="mb-4">Personal Information</h4>
           <p><span className="brand-text">Name: </span>Palvisha Sharma</p>
-          <p><span className="brand-text">Age: </span>24</p>
-sharmapalvisha@gmail.com
           <p><span className="brand-text">Email: </span>sharmapalvisha@gmail.com</p>
+          <p><span className="brand-text">Location: </span>Toronto, ON</p>
           <a target="_blank" href="https://drive.google.com/file/d/1k8kZjIzx7rqoENFm2G86yJ2qxq_6I_f0/view?usp=drive_link">
           <button className="btn brand-btn mt-5">Download Resume <span><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon></span></button>
           </a>
@@ -40,28 +39,28 @@ sharmapalvisha@gmail.com
       <div className="row mt-5 text-center mb-5">
         <div className="col-md-4">
           <div className="service-box">
-            <FontAwesomeIcon className="myicon" icon={faDesktop}></FontAwesomeIcon>
+            <FontAwesomeIcon className="myicon" icon={faDatabase}></FontAwesomeIcon>
             <h4>Data Engineering</h4>
             <p>
-              I can build fully functional dynamic and single page application with google authentication and database operations
+            I can design ETL pipelines, integration tests for new data sources, and implement end-to-end testing, to ensure that businesses decisions are made on data with the best quality possible.
             </p>
           </div>
         </div>
         <div className="col-md-4">
           <div className="service-box">
-            <FontAwesomeIcon className="myicon" icon={faMobile}></FontAwesomeIcon>
+            <FontAwesomeIcon className="myicon" icon={faBrain}></FontAwesomeIcon>
             <h4>Machine Learning</h4>
             <p>
-              I can design any website, such as Portfolio website, Ecommerce, Blogs, Landing pages etc 
+            Can feature engineer and configure various black-box and white-box ML algorithms. I am currently trying out image classification techniques on the Galaxy Zoo2 data. 
             </p>
           </div>
         </div>
         <div className="col-md-4">
           <div className="service-box">
-            <FontAwesomeIcon className="myicon" icon={faEye}></FontAwesomeIcon>
+            <FontAwesomeIcon className="myicon" icon={faDesktop}></FontAwesomeIcon>
             <h4>Web Development</h4>
             <p>
-              I can develop fully responsive websites that meets the satisfaction of users with various devices
+            Have a solid background in developing fully responsive websites from scratch using ReactJS, as well as dashboarding tools in Angular to compliment my work as a Data Engineer.
             </p>
           </div>
         </div>
