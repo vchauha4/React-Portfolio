@@ -17,7 +17,7 @@ const Home = () => {
       <div style={{height:'100vh', marginTop:'-56px'}}>
         <div className="home-content-container h-100 d-flex flex-column align-items-center justify-content-center">
           <h1>Hi,</h1>
-          <h1>I Am Palvisha, a</h1>
+          <h1>I am Palvisha, a</h1>
           <h1>
             <span className="brand-text">
             <Typewriter
@@ -32,10 +32,10 @@ const Home = () => {
             </span>
           </h1>
           <div className="social-links mt-">
-            <button className="btn btn-dark m-3"><a target="_blank" href="https://github.com/masummim50">Github <span><FontAwesomeIcon className="homeicon" icon={faGithub}></FontAwesomeIcon></span></a></button>
-            <button className="btn btn-primary m-3"><a target="_blank" href="https://www.linkedin.com/in/masum-billah-65709a146/">Linkedin <span><FontAwesomeIcon className="homeicon" icon={faLinkedin}></FontAwesomeIcon></span></a></button>
+            <button className="btn btn-dark m-3"><a target="_blank" href="https://github.com/palvisha13">Github <span><FontAwesomeIcon className="homeicon" icon={faGithub}></FontAwesomeIcon></span></a></button>
+            <button className="btn btn-primary m-3"><a target="_blank" href="https://www.linkedin.com/in/palvisha-sharma/">Linkedin <span><FontAwesomeIcon className="homeicon" icon={faLinkedin}></FontAwesomeIcon></span></a></button>
           </div>
-          <a target="_blank" href="https://drive.google.com/u/0/uc?id=1Iog7pdvkCA3HFp0iDyczZ5wP5zd2G-3q&export=download"><button className="btn brand-btn">Download Resume <span><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon></span></button></a>
+          <a target="_blank" href="https://drive.google.com/file/d/1k8kZjIzx7rqoENFm2G86yJ2qxq_6I_f0/view?usp=drive_link"><button className="btn brand-btn">Download Resume <span><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon></span></button></a>
         </div>
         
       </div>

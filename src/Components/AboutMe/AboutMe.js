@@ -18,19 +18,20 @@ const AboutMe = () => {
         <div className="col-md-8">
           <h2 className="text-white mb-3">Frontend Web Developer</h2>
           <p className="text-white">
-            Hard working professional with proven critical thinking, good communication and
-            multitasking skills. Aiming to leverage my abilities to successfully deliver your desired product. Developer with knowledge about backend technology that allows me to create dynamic and a fully functional website. <br/><br/>
-            I am able to do front end work such as PSD to HTML, Sketch to html with proper responsiveness. <br/><br/>
-            Focused on responsive design to improve user experience. Able to pick up new related technology and use them for my work. 
+          Hi everyone! Welcome to my portfolio! My name is Palvisha, and I graduated
+          with a degree in Physics in 2022. Since then (~1.5 years), I have been working 
+          as a Data Engineer while completing a second degree in Computer Science. Currently,
+          I am completing a thesis project on ML algorithms in fraud analytics with CIBC bank as 
+          part of my degree. It's safe to say: I love all things Data!<br/><br/>
           </p>
         </div>
         <div className="col-md-4">
           <h4 className="mb-4">Personal Information</h4>
-          <p><span className="brand-text">Name: </span>Md. Masum Billah</p>
+          <p><span className="brand-text">Name: </span>Palvisha Sharma</p>
           <p><span className="brand-text">Age: </span>24</p>
-          <p><span className="brand-text">Address: </span>Jessore, Khulna, Bangladesh</p>
-          <p><span className="brand-text">Email: </span>masummim50@gmail.com</p>
-          <a target="_blank" href="https://drive.google.com/u/0/uc?id=1Iog7pdvkCA3HFp0iDyczZ5wP5zd2G-3q&export=download">
+sharmapalvisha@gmail.com
+          <p><span className="brand-text">Email: </span>sharmapalvisha@gmail.com</p>
+          <a target="_blank" href="https://drive.google.com/file/d/1k8kZjIzx7rqoENFm2G86yJ2qxq_6I_f0/view?usp=drive_link">
           <button className="btn brand-btn mt-5">Download Resume <span><FontAwesomeIcon icon={faDownload}></FontAwesomeIcon></span></button>
           </a>
         </div>
@@ -40,7 +41,7 @@ const AboutMe = () => {
         <div className="col-md-4">
           <div className="service-box">
             <FontAwesomeIcon className="myicon" icon={faDesktop}></FontAwesomeIcon>
-            <h4>Web Development</h4>
+            <h4>Data Engineering</h4>
             <p>
               I can build fully functional dynamic and single page application with google authentication and database operations
             </p>
@@ -49,7 +50,7 @@ const AboutMe = () => {
         <div className="col-md-4">
           <div className="service-box">
             <FontAwesomeIcon className="myicon" icon={faMobile}></FontAwesomeIcon>
-            <h4>Web Design</h4>
+            <h4>Machine Learning</h4>
             <p>
               I can design any website, such as Portfolio website, Ecommerce, Blogs, Landing pages etc 
             </p>
@@ -58,7 +59,7 @@ const AboutMe = () => {
         <div className="col-md-4">
           <div className="service-box">
             <FontAwesomeIcon className="myicon" icon={faEye}></FontAwesomeIcon>
-            <h4>Responsive Design</h4>
+            <h4>Web Development</h4>
             <p>
               I can develop fully responsive websites that meets the satisfaction of users with various devices
             </p>
