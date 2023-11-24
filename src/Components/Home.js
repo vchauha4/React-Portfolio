@@ -17,12 +17,12 @@ const Home = () => {
       <div style={{height:'100vh', marginTop:'-56px'}}>
         <div className="home-content-container h-100 d-flex flex-column align-items-center justify-content-center">
           <h1>Hi,</h1>
-          <h1>I Am Masum, a</h1>
+          <h1>I Am Palvisha, a</h1>
           <h1>
             <span className="brand-text">
             <Typewriter
               options={{
-              strings: ['Web Developer', 'Web Designer', 'React Developer'],
+              strings: ['Data Engineer', 'ML Reasearcher', 'Software Engineer'],
               autoStart: true,
               loop: true,
               deleteSpeed:25,
