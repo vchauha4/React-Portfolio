@@ -59,6 +59,7 @@ const Resume = () => {
             <p>Collaborated within a team to design a product and deliver a pitch to a panel of<br></br>
             judges within 12 hours. Devised an Outlook extension using Machine Learning and<br></br> 
             Natural Language Processing to automate time-blocking.</p>
+            <br></br>
           </div>
           <div className="col-md-5">
             <h3 className="skills">Technical Skills:</h3>

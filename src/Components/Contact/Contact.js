@@ -44,18 +44,7 @@ const Contact = () => {
               </form>
             </div>
           </div>
-            <h4 className="brand-text">Other ways to get in touch</h4>
-          <div className="row text-center mt-5 m-5">
-            <div className="col-md-4">
-              <a ><FontAwesomeIcon className="myicon" icon={faFacebook}></FontAwesomeIcon></a>
-            </div>
-            <div className="col-md-4">
-            <a ><FontAwesomeIcon className="myicon" icon={faLinkedin}></FontAwesomeIcon></a>
-            </div>
-            <div className="col-md-4">
-            <a ><FontAwesomeIcon className="myicon" icon={faTwitter}></FontAwesomeIcon></a>
-            </div>
-          </div>
+
         </div>
       </div>
     </motion.div>
